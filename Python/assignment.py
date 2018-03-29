@@ -2,76 +2,76 @@
 
 # Demonstrate assignment operators
 
-right = 4.0
+right = 6.0
 
 left = 10.0
 
-print "left = ", left
-print "right = ", right
+print "A = ", left
+print "B = ", right
 
-# Assignment
+print '\nAssignment'
 answer = left + right
-print '\nleft(', left, ') + right(', right, ') = ', answer
+print '\nC(', answer, ') = A(', left, ') + B(', right, ')'
 
-# Plus Equals
+print '\nPlus Equals'
 a = left
 b = right
 
-print '\nleft(', left, ') += right(', right, ')'
+print '\nA(', left, ') += B(', right, ')'
 a += b
-print "left = ", a
-print "right = ", b
+print "A = ", a
+print "B = ", b
 
-# Minus Equals
+print '\nMinus Equals'
 a = left
 b = right
 
-print '\nleft(', left, ') -= right(', right, ')'
+print '\nA(', left, ') -= B(', right, ')'
 a -= b
-print "left = ", a
-print "right = ", b
+print "A = ", a
+print "B = ", b
 
-# Multiply Equals
+print '\nMultiply Equals'
 a = left
 b = right
 
-print '\nleft(', left, ') *= right(', right, ')'
+print '\nA(', left, ') *= B(', right, ')'
 a *= b
-print "left = ", a
-print "right = ", b
+print "A = ", a
+print "B = ", b
 
-# Divide Equals
+print '\nDivide Equals'
 a = left
 b = right
 
-print '\nleft(', left, ') /= right(', right, ')'
+print '\nA(', left, ') /= B(', right, ')'
 a /= b
-print "left = ", a
-print "right = ", b
+print "A = ", a
+print "B = ", b
 
-# Modulus Equals
+print '\nModulus Equals'
 a = left
 b = right
 
-print '\nleft(', left, ') %= right(', right, ')'
+print '\nA(', left, ') %= B(', right, ')'
 a %= b
-print "left = ", a
-print "right = ", b
+print "A = ", a
+print "B = ", b
 
-# Exponent Equals
+print '\nExponent Equals'
 a = left
 b = right
 
-print '\nleft(', left, ') **= right(', right, ')'
+print '\nA(', left, ') **= B(', right, ')'
 a **= b
-print "left = ", a
-print "right = ", b
+print "A = ", a
+print "B = ", b
 
-# Floor Equals
+print '\nFloor Equals'
 a = left
 b = right
 
-print '\nleft(', left, ') //= right(', right, ')'
+print '\nA(', left, ') //= B(', right, ')'
 a //= b
-print "left = ", a
-print "right = ", b
+print "A = ", a
+print "B = ", b
