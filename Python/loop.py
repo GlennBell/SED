@@ -8,6 +8,7 @@ print('For Loop: Count up by 2')
 for i in values:
     print i
 
+# While Loop
 print('While Loop: Count down by 2')
 while i > 0:
     print i
