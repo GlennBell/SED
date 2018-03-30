@@ -5,7 +5,7 @@
 from random import randint
 
 answer = randint(0,9)
-question = 'What number am I thingking of? '
+question = 'What number am I thinking of? '
 
 print ("Guess a number between 0 and 9")
 
