@@ -1,33 +1,42 @@
 #include <stdio.h>
 #include <math.h>
 
-/* Demonstrate C assignments */
+/*
+ * Demonstrate C assignments
+ *
+ * Compile with: gcc -o assignment assignment.c -lm
+ *
+ */
+
 
 int main(void){
-	double right = 4.0;
+	double right = 6.0;
 	double left = 10.0;
 	double answer, a, b;
 
-	printf("left = %f\n", left);
-	printf("right = %f\n", right);
+	printf("A = %f\n", left);
+	printf("B = %f\n", right);
 	
 	/* Assignment */
+    printf("\nAssignment\n");
 	answer = left + right;
-	printf("left(%f) + right(%f) = %f\n", left, right, answer);
+	printf("A(%f) + B(%f) = %f\n", left, right, answer);
 	
 	/* Unary Operators */
+    printf("\nUnary Operators\n");
 	a = left;
 	b = right;
-	printf("left++ = %f\n", a++);
+	printf("A++ = %f\n", a++);
 	a = left;
-	printf("++left = %f\n", ++a);
-	printf("right++ = %f\n", b++);
+	printf("++A = %f\n", ++a);
+	printf("B++ = %f\n", b++);
 	b = right;
-	printf("++right = %f\n", ++b);
+	printf("++B = %f\n", ++b);
 	
 	/* Power function */
+    printf("\nPower function\n");
 	answer = pow(left, right);
-	printf("left ^ right = %f\n", answer);
+	printf("A ^ B = %f\n", answer);
 	
 	return(0);
 }
