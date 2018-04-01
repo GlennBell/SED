@@ -2,7 +2,7 @@
 
 All code for the *2018 Scout Engineering Day - Programming a Sensor Net* class is available online on [GitHub](https://github.com/GlennBell/SED).
 
-All materials are licensed under the [MIT License](License).
+All materials are licensed under the [MIT License](LICENSE).
 
 ## Table of Contents
 
