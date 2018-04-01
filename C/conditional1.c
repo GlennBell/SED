@@ -1,8 +1,14 @@
+/* 
+ * Demonstrate the if statement 
+ *
+ * Compile with: gcc -o conditional1 conditional1.c
+ *
+ */
+
 #include <stdio.h>
 
-/* Demonstrate the if statement */
-
 int main(void){
+    /* Generate a random number */
 	srand(time(NULL));
 	int answer = rand() % 10;
 	
@@ -10,10 +16,12 @@ int main(void){
 	printf("Guess a number between 0 and 9\n");
 	
 	while(1){
+        /* Ask for a guess */
 		printf(question);
 		int guess;
 		scanf("%d", &guess);
 		
+        /* Evaluate the response */
 		if(guess < answer){
 			printf("Too Low\n");
 		} else if(guess > answer){
