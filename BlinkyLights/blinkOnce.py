@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+#
+# blinkOnce.py
+#
+# Control a blinking LED with RPi
+#
+
 import RPi.GPIO as GPIO
 import time
 
