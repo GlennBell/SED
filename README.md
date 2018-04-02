@@ -9,9 +9,9 @@ All materials are licensed under the [MIT License](LICENSE).
 * [Programming](#programming)
 	* [Key Programming Operations](#key-programming-operations)
 	* [Key Programming Functions](#key-programming-functions)
-	* [Introduction to Python](SED_2018-Python.md)
-	* [Introduction to Java](SED_2018-Java.md)
-	* [Introduction to C](SED_2018-C.md)
+	* [Introduction to Python](Python/README.md)
+	* [Introduction to Java](Java/README.md)
+	* [Introduction to C](C/README.md)
 * [Sensor Net Wiring](#sensor-net-wiring)
 
 ## Programming
