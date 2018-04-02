@@ -11,7 +11,7 @@ The Python Programming Language ...
 
 ## Table of Contents
 
-* [Class Overview](README.md)
+* [Class Overview](../README.md)
 * [Assignment Operator](#assignment-operator)
 * [Conditional Statement](#conditional-statement)
 * [Loop Statements](#loop-statements)
