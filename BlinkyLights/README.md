@@ -30,6 +30,7 @@ A graphical representation of the Blinky Lights Circuit.
 <img src="../GPIO/Gpio_define.jpg" width=600>
 By Sinovoip (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons
 
+
 1. Power down your Raspberry PI
 	* Open a terminal window and type ```sudo halt```
 	* Unplug the Raspberry PI
@@ -45,3 +46,5 @@ By Sinovoip (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa
 **Note: **You may need to compile the program.
 	
 Can you modify the included code to change its behavior?
+
+[Return to Class Overview](../README.md)
