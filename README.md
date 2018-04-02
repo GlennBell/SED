@@ -1,4 +1,4 @@
-# 2018 Scout Engineering Day - Programming a Sensor Net
+# Scout Engineering Day: Programming a Sensor Net
 
 All code for the *2018 Scout Engineering Day - Programming a Sensor Net* class is available online on [GitHub](https://github.com/GlennBell/SED).
 
@@ -6,11 +6,13 @@ All materials are licensed under the [MIT License](LICENSE).
 
 ## Table of Contents
 
-* [Key Programming Operations](#key-programming-operations)
-* [Key Programming Functions](#key-programming-functions)
-* [Introduction to Python](SED_2018-Python.md)
-* [Introduction to Java](SED_2018-Java.md)
-* [Introduction to C](SED_2018-C.md)
+* [Programming](#programming)
+	* [Key Programming Operations](#key-programming-operations)
+	* [Key Programming Functions](#key-programming-functions)
+	* [Introduction to Python](SED_2018-Python.md)
+	* [Introduction to Java](SED_2018-Java.md)
+	* [Introduction to C](SED_2018-C.md)
+* [Sensor Net Wiring](#sensor-net-wiring)
 
 ## Programming
 
@@ -25,7 +27,7 @@ All materials are licensed under the [MIT License](LICENSE).
 | Import/Include | Import modules providing reusable functions and classes |
 | Function/Method | Organize code into sub-routines (Frequently used code, Abstract concepts) |
 
-[Top](#programming)
+[Top](#scout-engineering-day-programming-a-sensor-net)
 
 ### Key Programming Functions
 | Function | Description |
@@ -34,4 +36,8 @@ All materials are licensed under the [MIT License](LICENSE).
 | range | Operate on a range of values |
 | input | Accept input into a variable |
 
-[Top](#programming)
+[Top](#scout-engineering-day-programming-a-sensor-net)
+
+## Sensor Net Wiring
+
+[Top](#scout-engineering-day-programming-a-sensor-net)
