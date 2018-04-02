@@ -3,7 +3,7 @@
  *
  * Control a blinking LED with RPi
  *
- * Compile with: gcc -o blinkonce blinkonce.c -lwiringPI
+ * Compile with: gcc -o blinkonce blinkonce.c -lwiringPi
  */
 
 #include <stdio.h>
