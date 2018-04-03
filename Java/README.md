@@ -385,14 +385,21 @@ public class Method {
 
 ## Java Exercise
 1. Open BlueJ Java IDE
-2. Select the SED-Programming Project
-3. Select a class to edit
+2. Select *Project* -> *Open Non BlueJ*
+3. Select the *Java* Folder
+4. Click *Open in BlueJ*
+5. Select a class to edit
 	1. Right-Click on the desired class and select Open Editor
-4. Each member of the team, do one or more of the following:
+6. Each member of the team, do one or more of the following:
 	1. Change code logic
 	2. Modify variables to change program execution
 	3. Move a code block to a method
 	4. Make sure you add comments to identify your work
-5. Compile and Execute!
+7. Click *Compile*
+	6. If the program compiles, close the editor window.
+8. Execute the Code
+	1. Right click on the Class you edited
+	2. Select *void main (String [] args)*
+	3. Click *Ok*
 
 [Top](#introduction-to-java)
