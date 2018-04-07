@@ -13,6 +13,8 @@ All materials are licensed under the [MIT License](LICENSE).
 	* [Introduction to Java](Java/README.md)
 	* [Introduction to C](C/README.md)
 * [Sensor Net Wiring](#sensor-net-wiring)
+	* [Blinky Lights Lab](BlinkyLights/README.md)
+	* [Light Sensor](LightSensor/README.md)
 
 ## Programming
 
@@ -38,6 +40,12 @@ All materials are licensed under the [MIT License](LICENSE).
 
 [Top](#scout-engineering-day-programming-a-sensor-net)
 
-## Sensor Net Wiring
+## Sensor Net Labs
+Six labs are included in this class
+
+| Lab | Description |
+|------|----------------|
+| Blinky Lights | Control a flashing LED using the Raspberry PI 3 GPIO |
+| Light Sensor | Read a Light Sensor Module with a Raspberry PI 3 GPIO |
 
 [Top](#scout-engineering-day-programming-a-sensor-net)
