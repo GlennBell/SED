@@ -29,10 +29,7 @@ A graphical representation of the Light Sensor Circuit.
 
 ## Connect to the Raspberry PI
 
-<img src="../GPIO/Gpio_define.jpg" width=600>
-
-By Sinovoip (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons
-
+<img src="../GPIO/RPi_Pinout.PNG" width=600>
 
 1. Power down your Raspberry PI
 	* Open a terminal window and type ```sudo halt```
