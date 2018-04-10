@@ -12,10 +12,11 @@ All materials are licensed under the [MIT License](LICENSE).
 	* [Introduction to Python](Python/README.md)
 	* [Introduction to Java](Java/README.md)
 	* [Introduction to C](C/README.md)
-* [Sensor Net Wiring](#sensor-net-wiring)
+* [Sensor Net Labs](#sensor-net-labs)
 	* [Blinky Lights Lab](BlinkyLights/README.md)
 	* [Light Sensor](LightSensor/README.md)
-
+	* [Magnetic Field Sensor](MagneticField/README.md)
+	
 ## Programming
 
 ### Key Programming Operations
@@ -47,5 +48,6 @@ Six labs are included in this class
 |------|----------------|
 | Blinky Lights | Control a flashing LED using the Raspberry PI 3 GPIO |
 | Light Sensor | Read a Light Sensor Module with a Raspberry PI 3 GPIO |
+| Magnetic Field Sensor | Detect a magnetic field with a Raspberry PI 3 GPIO |
 
 [Top](#scout-engineering-day-programming-a-sensor-net)
