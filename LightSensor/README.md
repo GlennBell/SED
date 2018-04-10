@@ -30,6 +30,7 @@ A graphical representation of the Light Sensor Circuit.
 ## Connect to the Raspberry PI
 
 <img src="../GPIO/Gpio_define.jpg" width=600>
+
 By Sinovoip (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons
 
 
@@ -44,13 +45,13 @@ By Sinovoip (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa
 4. Boot your Raspberry PI
 5. Open a terminal window
 6. Execute ...
-
-```LightSensor.py```
-
-```lightsensor.c```
+	* LightSensor.py
+	* lightsensor.c
 
 **Note: **You may need to compile the program.
 	
 Can you modify the included code to change its behavior?
+* Use different resolution modes
+* Change the continous output to an event trigger
 
 [Return to Class Overview](../README.md)
