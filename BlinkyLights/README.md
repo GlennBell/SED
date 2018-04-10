@@ -28,8 +28,8 @@ A graphical representation of the Blinky Lights Circuit.
 ## Connect to the Raspberry PI
 
 <img src="../GPIO/Gpio_define.jpg" width=600>
-By Sinovoip (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons
 
+By Sinovoip (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons
 
 1. Power down your Raspberry PI
 	* Open a terminal window and type ```sudo halt```
@@ -39,12 +39,15 @@ By Sinovoip (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa
 4. Boot your Raspberry PI
 5. Open a terminal window
 6. Execute ...
-```blinkOnce.py```
-```blinkOnce.java```
-```blinkonce.c```
+	* blinkOnce.py
+	* blinkOnce.java
+	* blinkonce.c
 
 **Note: **You may need to compile the program.
 	
 Can you modify the included code to change its behavior?
+* Change the rate of blinking?
+* Change the number of flashes?
+* Blink morse code messages?
 
 [Return to Class Overview](../README.md)
