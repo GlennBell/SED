@@ -16,6 +16,7 @@ All materials are licensed under the [MIT License](LICENSE).
 	* [Blinky Lights Lab](BlinkyLights/README.md)
 	* [Light Sensor](LightSensor/README.md)
 	* [Magnetic Field Sensor](MagneticField/README.md)
+	* [Mercury Switch](MercurySwitch/README.md)
 	
 ## Programming
 
@@ -47,7 +48,8 @@ Six labs are included in this class
 | Lab | Description |
 |------|----------------|
 | Blinky Lights | Control a flashing LED using the Raspberry PI 3 GPIO |
-| Light Sensor | Read a Light Sensor Module with a Raspberry PI 3 GPIO |
-| Magnetic Field Sensor | Detect a magnetic field with a Raspberry PI 3 GPIO |
+| Light Sensor | Measure light levels with a BH1750 Light Sensor Module |
+| Magnetic Field Sensor | Detect a magnetic field with a Hall Sensor |
+| Mercury Switch | Detect a tilting motion with a Mercury Switch |
 
 [Top](#scout-engineering-day-programming-a-sensor-net)
