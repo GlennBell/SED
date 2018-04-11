@@ -9,7 +9,7 @@ A simple circuit to detect magnetic fields with a Raspberry PI.
 * 3 - male - female long jumpers
 
 ## Schematic
-A graphical representation of the Light Sensor Circuit.
+A graphical representation of the Magnetic Field Circuit.
 
 <img src="MF-Schematic.png" width="600">
 
