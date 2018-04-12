@@ -50,7 +50,6 @@ A graphical representation of the Mercury Switch Circuit.
 7. Open a terminal window
 8. Execute ...
 	* mercury.py
-	* mercury.c
 
 **Note: **You may need to compile the program.
 	
