@@ -36,9 +36,9 @@ A graphical representation of the Blinky Lights Circuit.
 3. Connect the ground female connector to *Pin 6*
 4. Boot your Raspberry PI
 5. Open a terminal window
-6. Execute ...
+6. Change to the working directory: ```cd ~/src/SED/BlinkyLights```
+7. Execute ...
 	* blinkOnce.py
-	* blinkOnce.java
 	* blinkonce.c
 
 **Note: **You may need to compile the program.
