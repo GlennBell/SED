@@ -1,6 +1,8 @@
 /* Sample code to interact with a Hall Sensor
  *
  * WiringPi Library available at http://wiringpi.com
+ *
+ * Compile with: gcc -o magneticfield MagneticField.c -lwiringPi
  */
 
 #include <wiringPi.h>
@@ -30,19 +32,9 @@ char* current_time(void){
 }
     
 /*
- * Report a sensor state falling
- */
-void sensorLO(void){
-    printf("Magetic Field OFF at %s\n", current_time());
-    ++globalCntr;
-
-    return;
-}
-
-/*
  * Report a sensor state rising
  */
-void sensorHi(void){
+void sensorHI(void){
     printf("Magnetic Field Detected at %s\n", current_time());
     ++globalCntr;
 
@@ -65,15 +57,7 @@ int main(void){
      * Watch for a magnetic field
      */
     if(wiringPiISR(SensorPin, INT_EDGE_RISING, &sensorHI) < 0){
-        fprintf(stderr, "Unable to set up ISRi Rising: %s\n", strerror (errno));
-        return 1;
-    }
-
-    /*
-     * Watch for the field to go away
-     */
-    if(wiringPiISR(SensorPin, INT_EDGE_FALLING, &sensorLO) < 0){
-        fprintf(stderr, "Unable to set up ISR Falling: %s\n", strerror (errno));
+        fprintf(stderr, "Unable to set up ISR Rising: %s\n", strerror (errno));
         return 1;
     }
 
