@@ -17,6 +17,7 @@ All materials are licensed under the [MIT License](LICENSE).
 	* [Light Sensor](LightSensor/README.md)
 	* [Magnetic Field Sensor](MagneticField/README.md)
 	* [Mercury Switch](MercurySwitch/README.md)
+	* [Obstacle Avoidance Sensor](ObstacleAvoid/README.md)
 	
 ## Programming
 
@@ -51,5 +52,6 @@ Six labs are included in this class
 | Light Sensor | Measure light levels with a BH1750 Light Sensor Module |
 | Magnetic Field Sensor | Detect a magnetic field with a Hall Sensor |
 | Mercury Switch | Detect a tilting motion with a Mercury Switch |
+| Obstacle Avoidance | Use the Infrared (IR) reflection principle to detect obstacles |
 
 [Top](#scout-engineering-day-programming-a-sensor-net)
