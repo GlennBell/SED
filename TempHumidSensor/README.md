@@ -1,6 +1,6 @@
 # Temperature and Humidity Sensor Lab
 
-Measure Tempertaure and Humidity with a DHT11 Sensor
+Measure Temperature and Humidity with a DHT11 Sensor
 
 ## Materials
 * Raspberry PI 3 running Raspbian
