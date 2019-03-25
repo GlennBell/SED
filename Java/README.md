@@ -386,7 +386,7 @@ public class Method {
 ## Java Exercise
 1. Open BlueJ Java IDE
 2. Select *Project* -> *Open Non BlueJ*
-3. Select the *Java* Folder
+3. Select the *src -> SED -> Java* Folder
 4. Click *Open in BlueJ*
 5. Select a class to edit
 	1. Right-Click on the desired class and select Open Editor
