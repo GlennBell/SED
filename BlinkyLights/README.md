@@ -40,6 +40,7 @@ A graphical representation of the Blinky Lights Circuit.
 7. Execute ...
 	* blinkOnce.py
 	* blinkonce.c
+	* blinkOnce.java
 
 **Note: **You may need to compile the program.
 	
