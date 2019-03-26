@@ -15,7 +15,8 @@ public class blinkOnce {
     }
 
     public static void main(String [] args){
-
+        System.setProperty("pi4j.linking", "dynamic");
+        
         // Initialize the GPIO
         GpioFactory.setDefaultProvider(new RaspiGpioProvider(RaspiPinNumberingScheme.BROADCOM_PIN_NUMBERING));
         final GpioController gpio = GpioFactory.getInstance();
@@ -23,8 +24,9 @@ public class blinkOnce {
     
         // Run the function in a loop
         try {
-            System.out.println("The LED will blink continuously.  Press <CTRL>-C to exit");
-            while(true){
+            System.out.println("The LED will blink ten times");
+            for(int cntr=0; cntr<10; cntr++){
+                System.out.printf("Blink #%d\n", cntr+1);
                 blink(led, 1000, 500);
                 Thread.sleep(2000);
             }
