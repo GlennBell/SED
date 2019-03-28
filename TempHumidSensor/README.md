@@ -34,17 +34,19 @@ A graphical representation of the Temperature and Humidity Sensor Circuit.
 	* Unplug the Raspberry PI
 2. Connect the hot female connector to *Pin 2* (+5v)
 3. Connect the ground female connector to *Pin 6* (Ground)
-4. Connect the female jumper from row 17 (S) to *Pin 7* (GPIO 04 (GPIO_GCLK))
+4. Connect the female jumper from row 16 (S) to *Pin 7* (GPIO 04 (GPIO_GCLK))
 5. **Verify your wiring! Mis-wiring will destroy the sensor!**
 6. Boot your Raspberry PI
 7. Open a terminal window
 8. Execute ...
 	* dht11.py
 
-**Note: **You may need to compile the program.
+**Note:** You may need to compile the program.
 	
 Can you modify the included code to change its behavior?
 * Change a while loop to a for loop
-* Change how temperatur and humidity is reported
+* Change how temperature and humidity is reported
+
+Challenge: Can you get the program to report in Fahrenheit?
 
 [Return to Class Overview](../README.md)
